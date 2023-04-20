@@ -15,9 +15,7 @@ public class PostService {
 
 	@Autowired
 	private PostRepository repo;
-	public List<Post> findAll(){
-		return repo.findAll();
-	}
+	
 	
 	public Post findById(String id) {
 		
